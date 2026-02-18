@@ -1,0 +1,214 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Daniel Nylander <po@danielnylander.se>, 2026
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-02-18 10:19+0100\n"
+"PO-Revision-Date: 2026-02-18 09:21+0000\n"
+"Last-Translator: Daniel Nylander <po@danielnylander.se>, 2026\n"
+"Language-Team: Swedish (https://app.transifex.com/danielnylander/teams/304957/sv/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: sv\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: src/pecsbrada/window.py:12
+msgid "Food"
+msgstr "Mat"
+
+#: src/pecsbrada/window.py:13
+msgid "Apple"
+msgstr "Äpple"
+
+#: src/pecsbrada/window.py:13
+msgid "Banana"
+msgstr "Banan"
+
+#: src/pecsbrada/window.py:13
+msgid "Milk"
+msgstr "Mjölk"
+
+#: src/pecsbrada/window.py:14
+msgid "Bread"
+msgstr "Bröd"
+
+#: src/pecsbrada/window.py:14
+msgid "Water"
+msgstr "Vatten"
+
+#: src/pecsbrada/window.py:14
+msgid "Juice"
+msgstr "Juice"
+
+#: src/pecsbrada/window.py:15
+msgid "Cookie"
+msgstr "Kaka"
+
+#: src/pecsbrada/window.py:15
+msgid "Cheese"
+msgstr "Ost"
+
+#: src/pecsbrada/window.py:15
+msgid "Pizza"
+msgstr "Pizza"
+
+#: src/pecsbrada/window.py:17
+msgid "Activities"
+msgstr "Aktiviteter"
+
+#: src/pecsbrada/window.py:18
+msgid "Play"
+msgstr "Leka"
+
+#: src/pecsbrada/window.py:18
+msgid "Read"
+msgstr "Läsa"
+
+#: src/pecsbrada/window.py:18
+msgid "Draw"
+msgstr "Rita"
+
+#: src/pecsbrada/window.py:19
+msgid "Music"
+msgstr "Musik"
+
+#: src/pecsbrada/window.py:19
+msgid "Run"
+msgstr "Springa"
+
+#: src/pecsbrada/window.py:19
+msgid "Puzzle"
+msgstr "Pussel"
+
+#: src/pecsbrada/window.py:20
+msgid "TV"
+msgstr "TV"
+
+#: src/pecsbrada/window.py:20
+msgid "Playground"
+msgstr "Lekplats"
+
+#: src/pecsbrada/window.py:20
+msgid "Car ride"
+msgstr "Biltur"
+
+#: src/pecsbrada/window.py:22
+msgid "Feelings"
+msgstr "Känslor"
+
+#: src/pecsbrada/window.py:23
+msgid "Happy"
+msgstr "Glad"
+
+#: src/pecsbrada/window.py:23
+msgid "Sad"
+msgstr "Ledsen"
+
+#: src/pecsbrada/window.py:23
+msgid "Angry"
+msgstr "Arg"
+
+#: src/pecsbrada/window.py:24
+msgid "Worried"
+msgstr "Orolig"
+
+#: src/pecsbrada/window.py:24
+msgid "Tired"
+msgstr "Trött"
+
+#: src/pecsbrada/window.py:24
+msgid "Hug"
+msgstr "Kram"
+
+#: src/pecsbrada/window.py:25
+msgid "Hungry"
+msgstr "Hungrig"
+
+#: src/pecsbrada/window.py:25
+msgid "Hot"
+msgstr "Varm"
+
+#: src/pecsbrada/window.py:25
+msgid "Cold"
+msgstr "Kall"
+
+#: src/pecsbrada/window.py:27
+msgid "Actions"
+msgstr "Handling"
+
+#: src/pecsbrada/window.py:28
+msgid "Toilet"
+msgstr "Toalett"
+
+#: src/pecsbrada/window.py:28
+msgid "Help"
+msgstr "Hjälp"
+
+#: src/pecsbrada/window.py:28
+msgid "Stop"
+msgstr "Stopp"
+
+#: src/pecsbrada/window.py:29
+msgid "Hello"
+msgstr "Hej"
+
+#: src/pecsbrada/window.py:29
+msgid "Please"
+msgstr "Snälla"
+
+#: src/pecsbrada/window.py:29
+msgid "Thank you"
+msgstr "Tack"
+
+#: src/pecsbrada/window.py:30
+msgid "More"
+msgstr "Mer"
+
+#: src/pecsbrada/window.py:30
+msgid "No"
+msgstr "Nej"
+
+#: src/pecsbrada/window.py:30
+msgid "Yes"
+msgstr "Ja"
+
+#: src/pecsbrada/window.py:38 src/pecsbrada/main.py:46
+msgid "PECS-bräda"
+msgstr "PECS-bräda"
+
+#: src/pecsbrada/window.py:52
+msgid "Toggle dark/light theme"
+msgstr "Växla mörkt/ljust tema"
+
+#: src/pecsbrada/window.py:57
+msgid "Keyboard Shortcuts"
+msgstr "Tangentbordsgenvägar"
+
+#: src/pecsbrada/window.py:58
+msgid "About PECS-bräda"
+msgstr "Om PECS-bräda"
+
+#: src/pecsbrada/window.py:59
+msgid "Quit"
+msgstr "Avsluta"
+
+#: src/pecsbrada/window.py:75 src/pecsbrada/window.py:188
+msgid "Tap images to build a sentence..."
+msgstr "Tryck på bilder för att bygga en mening..."
+
+#: src/pecsbrada/window.py:81
+msgid "Speak sentence"
+msgstr "Säg meningen"
+
+#: src/pecsbrada/window.py:87
+msgid "Clear"
+msgstr "Töm"
