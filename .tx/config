@@ -1,0 +1,8 @@
+[main]
+host = https://www.transifex.com
+
+[o:danielnylander:p:pecsbrada:r:pecsbrada-pot]
+file_filter = po/<lang>.po
+source_file = po/pecsbrada.pot
+source_lang = en
+type = PO
