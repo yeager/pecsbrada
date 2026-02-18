@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=PECS-bräda
+Name[sv]=PECS-bräda
+Comment=Digital PECS communication board with text-to-speech
+Comment[sv]=Digital PECS-kommunikationstavla
+Exec=pecsbrada
+Icon=pecsbrada
+Terminal=false
+Type=Application
+Categories=Education;Accessibility;
