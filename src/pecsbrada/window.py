@@ -4,30 +4,41 @@ import subprocess
 import gi
 gi.require_version('Gtk', '4.0')
 gi.require_version('Adw', '1')
-from gi.repository import Gtk, Adw, Gio, GLib
+from gi.repository import Gtk, Adw, Gio, GLib, GdkPixbuf
+
+from . import arasaac
 
 _ = gettext.gettext
 
+# Each entry: (emoji_fallback, translated_label, arasaac_search_term)
 CATEGORIES = {
     _("Food"): [
-        ("🍎", _("Apple")), ("🍌", _("Banana")), ("🥛", _("Milk")),
-        ("🍞", _("Bread")), ("💧", _("Water")), ("🧃", _("Juice")),
-        ("🍪", _("Cookie")), ("🧀", _("Cheese")), ("🍕", _("Pizza")),
+        ("🍎", _("Apple"), "apple"), ("🍌", _("Banana"), "banana"),
+        ("🥛", _("Milk"), "milk"), ("🍞", _("Bread"), "bread"),
+        ("💧", _("Water"), "water"), ("🧃", _("Juice"), "juice"),
+        ("🍪", _("Cookie"), "cookie"), ("🧀", _("Cheese"), "cheese"),
+        ("🍕", _("Pizza"), "pizza"),
     ],
     _("Activities"): [
-        ("🎮", _("Play")), ("📖", _("Read")), ("🎨", _("Draw")),
-        ("🎵", _("Music")), ("🏃", _("Run")), ("🧩", _("Puzzle")),
-        ("📺", _("TV")), ("🛝", _("Playground")), ("🚗", _("Car ride")),
+        ("🎮", _("Play"), "play"), ("📖", _("Read"), "read"),
+        ("🎨", _("Draw"), "draw"), ("🎵", _("Music"), "music"),
+        ("🏃", _("Run"), "run"), ("🧩", _("Puzzle"), "puzzle"),
+        ("📺", _("TV"), "television"), ("🛝", _("Playground"), "playground"),
+        ("🚗", _("Car ride"), "car"),
     ],
     _("Feelings"): [
-        ("😊", _("Happy")), ("😢", _("Sad")), ("😠", _("Angry")),
-        ("😰", _("Worried")), ("😴", _("Tired")), ("🤗", _("Hug")),
-        ("😋", _("Hungry")), ("🥵", _("Hot")), ("🥶", _("Cold")),
+        ("😊", _("Happy"), "happy"), ("😢", _("Sad"), "sad"),
+        ("😠", _("Angry"), "angry"), ("😰", _("Worried"), "worried"),
+        ("😴", _("Tired"), "tired"), ("🤗", _("Hug"), "hug"),
+        ("😋", _("Hungry"), "hungry"), ("🥵", _("Hot"), "hot"),
+        ("🥶", _("Cold"), "cold"),
     ],
     _("Actions"): [
-        ("🚽", _("Toilet")), ("🖐️", _("Help")), ("✋", _("Stop")),
-        ("👋", _("Hello")), ("🙏", _("Please")), ("❤️", _("Thank you")),
-        ("➡️", _("More")), ("🚫", _("No")), ("✅", _("Yes")),
+        ("🚽", _("Toilet"), "toilet"), ("🖐️", _("Help"), "help"),
+        ("✋", _("Stop"), "stop"), ("👋", _("Hello"), "hello"),
+        ("🙏", _("Please"), "please"), ("❤️", _("Thank you"), "thank you"),
+        ("➡️", _("More"), "more"), ("🚫", _("No"), "no"),
+        ("✅", _("Yes"), "yes"),
     ],
 }
 
@@ -141,14 +152,29 @@ class PecsbradaWindow(Adw.ApplicationWindow):
             child = next_c
 
         items = CATEGORIES.get(self.current_category, [])
-        for emoji, label in items:
+        provider = arasaac.get_provider()
+        for emoji, label, term in items:
             btn = Gtk.Button()
             btn.set_size_request(120, 120)
             box = Gtk.Box(orientation=Gtk.Orientation.VERTICAL, spacing=4)
             box.set_valign(Gtk.Align.CENTER)
-            icon = Gtk.Label(label=emoji)
-            icon.add_css_class("title-1")
-            box.append(icon)
+
+            # Try ARASAAC pictogram, fall back to emoji
+            icon_widget = None
+            try:
+                path = provider.get_pictogram(term, lang="en", resolution=96)
+                if path:
+                    pixbuf = GdkPixbuf.Pixbuf.new_from_file_at_scale(
+                        path, 64, 64, True)
+                    icon_widget = Gtk.Image.new_from_pixbuf(pixbuf)
+                    icon_widget.set_pixel_size(64)
+            except Exception:
+                pass
+            if icon_widget is None:
+                icon_widget = Gtk.Label(label=emoji)
+                icon_widget.add_css_class("title-1")
+
+            box.append(icon_widget)
             txt = Gtk.Label(label=label)
             txt.add_css_class("heading")
             box.append(txt)
