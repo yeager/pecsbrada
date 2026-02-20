@@ -1,74 +1,61 @@
 # PECS-bräda
 
-Digital PECS (Picture Exchange Communication System) board with text-to-speech.
+[![Version](https://img.shields.io/badge/version-0.2.0-blue)](https://github.com/yeager/pecsbrada/releases)
+[![License: GPL-3.0](https://img.shields.io/badge/License-GPL%203.0-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+[![Transifex](https://img.shields.io/badge/Transifex-Translate-green.svg)](https://www.transifex.com/danielnylander/pecsbrada/)
 
-> **Målgrupp / Target audience:** Barn och vuxna med autism, språkstörning (DLD),
-> intellektuell funktionsnedsättning och andra kommunikationssvårigheter som behöver
-> alternativ och kompletterande kommunikation (AKK/AAC). Perfekt för hemmet, skolan
-> och habilitering.
->
-> **For:** Children and adults with autism spectrum disorder (ASD), developmental
-> language disorder (DLD), intellectual disabilities, and other communication
-> difficulties who need augmentative and alternative communication (AAC). Ideal for
-> home, school, and rehabilitation settings.
+Digital PECS (Picture Exchange Communication System) board with text-to-speech — GTK4/Adwaita.
 
-![Screenshot](screenshots/screenshot.png)
+> **For:** Children and adults with autism, DLD, or intellectual disabilities who use PECS for communication. Digital board with customizable cards and text-to-speech.
+
+![Screenshot](screenshots/main.png)
 
 ## Features
 
-- Grid of pictograms organized by category (food, activities, feelings, actions)
-- **ARASAAC pictogram integration** — automatically downloads free pictograms from
-  [ARASAAC](https://arasaac.org) (CC BY-NC-SA, Government of Aragon / Sergio Palao)
-- Emoji fallback when offline
-- Tap image for TTS readout (via espeak-ng)
-- Build sentences by tapping multiple images
-- Customizable grid and categories
-- Dark/light theme toggle
-
-## Free Image Resources
-
-| Resource | License | URL |
-|----------|---------|-----|
-| **ARASAAC** | CC BY-NC-SA 4.0 | https://arasaac.org |
-| **OpenMoji** | CC BY-SA 4.0 | https://openmoji.org |
-| **Mulberry Symbols** | CC BY-SA 2.0 UK | https://mulberrysymbols.org |
-| **Sclera** | CC BY-NC 2.0 BE | https://sclera.be |
-
-## Requirements
-
-- Python 3.10+
-- GTK4 / libadwaita
-- PyGObject
-- espeak-ng (for TTS)
+- **PECS board** — customizable communication cards
+- **Text-to-speech** — tap cards to hear words (espeak-ng)
+- **ARASAAC pictograms** — automatic download of free symbols
+- **Categories** — organize cards by topic
+- **Custom cards** — add your own images and labels
+- **Dark/light theme** toggle
 
 ## Installation
 
+### Debian/Ubuntu
+
 ```bash
-# Install dependencies (Fedora/RHEL)
-sudo dnf install python3-gobject gtk4 libadwaita espeak-ng
+echo "deb [signed-by=/usr/share/keyrings/yeager-keyring.gpg] https://yeager.github.io/debian-repo stable main" | sudo tee /etc/apt/sources.list.d/yeager.list
+curl -fsSL https://yeager.github.io/debian-repo/yeager-keyring.gpg | sudo tee /usr/share/keyrings/yeager-keyring.gpg > /dev/null
+sudo apt update && sudo apt install pecsbrada
+```
 
-# Install dependencies (Debian/Ubuntu)
-sudo apt install python3-gi gir1.2-gtk-4.0 gir1.2-adw-1 espeak-ng
+### Fedora/openSUSE
 
-# Run from source
-PYTHONPATH=src python3 -c "from pecsbrada.main import main; main()"
+```bash
+sudo dnf config-manager --add-repo https://yeager.github.io/rpm-repo/yeager.repo
+sudo dnf install pecsbrada
+```
+
+### From source
+
+```bash
+git clone https://github.com/yeager/pecsbrada.git
+cd pecsbrada && pip install -e .
+pecsbrada
 ```
 
 ## ARASAAC Attribution
 
-Pictographic symbols © Government of Aragon, created by Sergio Palao for
-[ARASAAC](https://arasaac.org), distributed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+Pictographic symbols © Gobierno de Aragón, created by Sergio Palao for [ARASAAC](https://arasaac.org), distributed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+
+## Translation
+
+Help translate on [Transifex](https://www.transifex.com/danielnylander/pecsbrada/).
 
 ## License
 
-GPL-3.0-or-later
+GPL-3.0-or-later — see [LICENSE](LICENSE) for details.
 
 ## Author
 
-Daniel Nylander
-
-## Links
-
-- [GitHub](https://github.com/yeager/pecsbrada)
-- [Issues](https://github.com/yeager/pecsbrada/issues)
-- [Translations](https://app.transifex.com/danielnylander/pecsbrada)
+**Daniel Nylander** — [danielnylander.se](https://danielnylander.se)
