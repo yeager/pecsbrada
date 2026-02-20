@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) YEAR Daniel Nylander
+# This file is distributed under the same license as the pecsbrada package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: pecsbrada\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-18 10:19+0100\n"
+"POT-Creation-Date: 2026-02-20 20:20+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,194 +17,325 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: src/pecsbrada/window.py:12
-msgid "Food"
+#: src/pecsbrada/main.py:83
+msgid "Welcome"
 msgstr ""
 
-#: src/pecsbrada/window.py:13
-msgid "Apple"
+#: src/pecsbrada/main.py:89
+msgid "Welcome to PECS-bräda"
 msgstr ""
 
-#: src/pecsbrada/window.py:13
-msgid "Banana"
+#: src/pecsbrada/main.py:91
+msgid ""
+"Build sentences with picture cards.\n"
+"\n"
+"✓ Tap pictures to form sentences\n"
+"✓ Text-to-speech reads them aloud\n"
+"✓ Search 13,000+ ARASAAC pictograms\n"
+"✓ Search in Swedish or English"
 msgstr ""
 
-#: src/pecsbrada/window.py:13
-msgid "Milk"
+#: src/pecsbrada/main.py:98
+msgid "Get Started"
 msgstr ""
 
-#: src/pecsbrada/window.py:14
-msgid "Bread"
+#: src/pecsbrada/main.py:123 src/pecsbrada/window.py:68
+msgid "Preferences"
 msgstr ""
 
-#: src/pecsbrada/window.py:14
-msgid "Water"
+#: src/pecsbrada/main.py:126
+msgid "General"
 msgstr ""
 
-#: src/pecsbrada/window.py:14
-msgid "Juice"
+#: src/pecsbrada/main.py:130
+msgid "Appearance"
 msgstr ""
 
-#: src/pecsbrada/window.py:15
-msgid "Cookie"
+#: src/pecsbrada/main.py:133
+msgid "Theme"
 msgstr ""
 
-#: src/pecsbrada/window.py:15
-msgid "Cheese"
+#: src/pecsbrada/main.py:134
+msgid "Choose light, dark, or follow system"
 msgstr ""
 
-#: src/pecsbrada/window.py:15
-msgid "Pizza"
+#: src/pecsbrada/main.py:136
+msgid "System"
 msgstr ""
 
-#: src/pecsbrada/window.py:17
-msgid "Activities"
+#: src/pecsbrada/main.py:136
+msgid "Light"
 msgstr ""
 
-#: src/pecsbrada/window.py:18
-msgid "Play"
+#: src/pecsbrada/main.py:136
+msgid "Dark"
 msgstr ""
 
-#: src/pecsbrada/window.py:18
-msgid "Read"
+#: src/pecsbrada/main.py:144
+msgid "Icon Size"
 msgstr ""
 
-#: src/pecsbrada/window.py:18
-msgid "Draw"
+#: src/pecsbrada/main.py:145
+msgid "Size of pictogram icons"
 msgstr ""
 
-#: src/pecsbrada/window.py:19
-msgid "Music"
+#: src/pecsbrada/main.py:147
+msgid "Small"
 msgstr ""
 
-#: src/pecsbrada/window.py:19
-msgid "Run"
+#: src/pecsbrada/main.py:147
+msgid "Medium"
 msgstr ""
 
-#: src/pecsbrada/window.py:19
-msgid "Puzzle"
+#: src/pecsbrada/main.py:147
+msgid "Large"
 msgstr ""
 
-#: src/pecsbrada/window.py:20
-msgid "TV"
+#: src/pecsbrada/main.py:155
+msgid "Speech"
 msgstr ""
 
-#: src/pecsbrada/window.py:20
-msgid "Playground"
+#: src/pecsbrada/main.py:158
+msgid "Read aloud on tap"
 msgstr ""
 
-#: src/pecsbrada/window.py:20
-msgid "Car ride"
+#: src/pecsbrada/main.py:159
+msgid "Speak each word when tapped"
 msgstr ""
 
-#: src/pecsbrada/window.py:22
-msgid "Feelings"
+#: src/pecsbrada/main.py:170
+msgid "Advanced"
 msgstr ""
 
-#: src/pecsbrada/window.py:23
-msgid "Happy"
+#: src/pecsbrada/main.py:174
+msgid "ARASAAC Cache"
 msgstr ""
 
-#: src/pecsbrada/window.py:23
-msgid "Sad"
+#: src/pecsbrada/main.py:179
+msgid "Cached pictograms"
 msgstr ""
 
-#: src/pecsbrada/window.py:23
-msgid "Angry"
+#: src/pecsbrada/main.py:181 src/pecsbrada/window.py:99
+msgid "Clear"
 msgstr ""
 
-#: src/pecsbrada/window.py:24
-msgid "Worried"
+#: src/pecsbrada/main.py:190
+msgid "Developer"
 msgstr ""
 
-#: src/pecsbrada/window.py:24
-msgid "Tired"
+#: src/pecsbrada/main.py:192
+msgid "Debug mode"
 msgstr ""
 
-#: src/pecsbrada/window.py:24
-msgid "Hug"
+#: src/pecsbrada/main.py:193
+msgid "Show extra logging in terminal"
 msgstr ""
 
-#: src/pecsbrada/window.py:25
-msgid "Hungry"
+#: src/pecsbrada/main.py:225
+msgid "Cleared"
 msgstr ""
 
-#: src/pecsbrada/window.py:25
-msgid "Hot"
-msgstr ""
-
-#: src/pecsbrada/window.py:25
-msgid "Cold"
-msgstr ""
-
-#: src/pecsbrada/window.py:27
-msgid "Actions"
-msgstr ""
-
-#: src/pecsbrada/window.py:28
-msgid "Toilet"
-msgstr ""
-
-#: src/pecsbrada/window.py:28
-msgid "Help"
-msgstr ""
-
-#: src/pecsbrada/window.py:28
-msgid "Stop"
-msgstr ""
-
-#: src/pecsbrada/window.py:29
-msgid "Hello"
-msgstr ""
-
-#: src/pecsbrada/window.py:29
-msgid "Please"
-msgstr ""
-
-#: src/pecsbrada/window.py:29
-msgid "Thank you"
-msgstr ""
-
-#: src/pecsbrada/window.py:30
-msgid "More"
-msgstr ""
-
-#: src/pecsbrada/window.py:30
-msgid "No"
-msgstr ""
-
-#: src/pecsbrada/window.py:30
-msgid "Yes"
-msgstr ""
-
-#: src/pecsbrada/window.py:38 src/pecsbrada/main.py:46
+#: src/pecsbrada/main.py:235 src/pecsbrada/window.py:49
 msgid "PECS-bräda"
 msgstr ""
 
-#: src/pecsbrada/window.py:52
+#: src/pecsbrada/main.py:246
+msgid "ARASAAC pictograms (https://arasaac.org)"
+msgstr ""
+
+#: src/pecsbrada/main.py:249
+msgid ""
+"Digital PECS communication board with text-to-speech and pictogram support "
+"for children with autism.\n"
+"\n"
+"Part of the Autismappar suite — free tools for communication and daily "
+"structure."
+msgstr ""
+
+#: src/pecsbrada/main.py:260
+msgid "Autismappar"
+msgstr ""
+
+#: src/pecsbrada/window.py:15
+msgid "Food"
+msgstr ""
+
+#: src/pecsbrada/window.py:16
+msgid "Apple"
+msgstr ""
+
+#: src/pecsbrada/window.py:16
+msgid "Banana"
+msgstr ""
+
+#: src/pecsbrada/window.py:17
+msgid "Milk"
+msgstr ""
+
+#: src/pecsbrada/window.py:17
+msgid "Bread"
+msgstr ""
+
+#: src/pecsbrada/window.py:18
+msgid "Water"
+msgstr ""
+
+#: src/pecsbrada/window.py:18
+msgid "Juice"
+msgstr ""
+
+#: src/pecsbrada/window.py:19
+msgid "Cookie"
+msgstr ""
+
+#: src/pecsbrada/window.py:19
+msgid "Cheese"
+msgstr ""
+
+#: src/pecsbrada/window.py:20
+msgid "Pizza"
+msgstr ""
+
+#: src/pecsbrada/window.py:22
+msgid "Activities"
+msgstr ""
+
+#: src/pecsbrada/window.py:23
+msgid "Play"
+msgstr ""
+
+#: src/pecsbrada/window.py:23
+msgid "Read"
+msgstr ""
+
+#: src/pecsbrada/window.py:24
+msgid "Draw"
+msgstr ""
+
+#: src/pecsbrada/window.py:24
+msgid "Music"
+msgstr ""
+
+#: src/pecsbrada/window.py:25
+msgid "Run"
+msgstr ""
+
+#: src/pecsbrada/window.py:25
+msgid "Puzzle"
+msgstr ""
+
+#: src/pecsbrada/window.py:26
+msgid "TV"
+msgstr ""
+
+#: src/pecsbrada/window.py:26
+msgid "Playground"
+msgstr ""
+
+#: src/pecsbrada/window.py:27
+msgid "Car ride"
+msgstr ""
+
+#: src/pecsbrada/window.py:29
+msgid "Feelings"
+msgstr ""
+
+#: src/pecsbrada/window.py:30
+msgid "Happy"
+msgstr ""
+
+#: src/pecsbrada/window.py:30
+msgid "Sad"
+msgstr ""
+
+#: src/pecsbrada/window.py:31
+msgid "Angry"
+msgstr ""
+
+#: src/pecsbrada/window.py:31
+msgid "Worried"
+msgstr ""
+
+#: src/pecsbrada/window.py:32
+msgid "Tired"
+msgstr ""
+
+#: src/pecsbrada/window.py:32
+msgid "Hug"
+msgstr ""
+
+#: src/pecsbrada/window.py:33
+msgid "Hungry"
+msgstr ""
+
+#: src/pecsbrada/window.py:33
+msgid "Hot"
+msgstr ""
+
+#: src/pecsbrada/window.py:34
+msgid "Cold"
+msgstr ""
+
+#: src/pecsbrada/window.py:36
+msgid "Actions"
+msgstr ""
+
+#: src/pecsbrada/window.py:37
+msgid "Toilet"
+msgstr ""
+
+#: src/pecsbrada/window.py:37
+msgid "Help"
+msgstr ""
+
+#: src/pecsbrada/window.py:38
+msgid "Stop"
+msgstr ""
+
+#: src/pecsbrada/window.py:38
+msgid "Hello"
+msgstr ""
+
+#: src/pecsbrada/window.py:39
+msgid "Please"
+msgstr ""
+
+#: src/pecsbrada/window.py:39
+msgid "Thank you"
+msgstr ""
+
+#: src/pecsbrada/window.py:40
+msgid "More"
+msgstr ""
+
+#: src/pecsbrada/window.py:40
+msgid "No"
+msgstr ""
+
+#: src/pecsbrada/window.py:41
+msgid "Yes"
+msgstr ""
+
+#: src/pecsbrada/window.py:63
 msgid "Toggle dark/light theme"
 msgstr ""
 
-#: src/pecsbrada/window.py:57
+#: src/pecsbrada/window.py:69
 msgid "Keyboard Shortcuts"
 msgstr ""
 
-#: src/pecsbrada/window.py:58
+#: src/pecsbrada/window.py:70
 msgid "About PECS-bräda"
 msgstr ""
 
-#: src/pecsbrada/window.py:59
+#: src/pecsbrada/window.py:71
 msgid "Quit"
 msgstr ""
 
-#: src/pecsbrada/window.py:75 src/pecsbrada/window.py:188
+#: src/pecsbrada/window.py:87 src/pecsbrada/window.py:215
 msgid "Tap images to build a sentence..."
 msgstr ""
 
-#: src/pecsbrada/window.py:81
+#: src/pecsbrada/window.py:93
 msgid "Speak sentence"
-msgstr ""
-
-#: src/pecsbrada/window.py:87
-msgid "Clear"
 msgstr ""
