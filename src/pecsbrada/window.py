@@ -65,6 +65,7 @@ class PecsbradaWindow(Adw.ApplicationWindow):
         header.pack_end(theme_btn)
 
         menu = Gio.Menu()
+        menu.append(_("Export"), "app.export")
         menu.append(_("Preferences"), "app.preferences")
         menu.append(_("Keyboard Shortcuts"), "app.shortcuts")
         menu.append(_("About PECS-bräda"), "app.about")
