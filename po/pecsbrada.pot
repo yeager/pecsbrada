@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pecsbrada\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-20 21:04+0100\n"
+"POT-Creation-Date: 2026-02-20 21:09+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -177,7 +177,7 @@ msgstr ""
 msgid "Yes"
 msgstr ""
 
-#: src/pecsbrada/window.py:49 src/pecsbrada/main.py:247
+#: src/pecsbrada/window.py:49 src/pecsbrada/main.py:278
 msgid "PECS-bräda"
 msgstr ""
 
@@ -189,7 +189,7 @@ msgstr ""
 msgid "Export"
 msgstr ""
 
-#: src/pecsbrada/window.py:69 src/pecsbrada/main.py:124
+#: src/pecsbrada/window.py:69 src/pecsbrada/main.py:125
 msgid "Preferences"
 msgstr ""
 
@@ -213,7 +213,7 @@ msgstr ""
 msgid "Speak sentence"
 msgstr ""
 
-#: src/pecsbrada/window.py:100 src/pecsbrada/main.py:182
+#: src/pecsbrada/window.py:100 src/pecsbrada/main.py:213
 msgid "Clear"
 msgstr ""
 
@@ -287,15 +287,15 @@ msgstr ""
 msgid "PDF export requires pycairo"
 msgstr ""
 
-#: src/pecsbrada/main.py:84
+#: src/pecsbrada/main.py:85
 msgid "Welcome"
 msgstr ""
 
-#: src/pecsbrada/main.py:90
+#: src/pecsbrada/main.py:91
 msgid "Welcome to PECS-bräda"
 msgstr ""
 
-#: src/pecsbrada/main.py:92
+#: src/pecsbrada/main.py:93
 msgid ""
 "Build sentences with picture cards.\n"
 "\n"
@@ -305,103 +305,131 @@ msgid ""
 "✓ Search in Swedish or English"
 msgstr ""
 
-#: src/pecsbrada/main.py:99
+#: src/pecsbrada/main.py:100
 msgid "Get Started"
 msgstr ""
 
-#: src/pecsbrada/main.py:127
+#: src/pecsbrada/main.py:128
 msgid "General"
 msgstr ""
 
-#: src/pecsbrada/main.py:131
+#: src/pecsbrada/main.py:132
 msgid "Appearance"
 msgstr ""
 
-#: src/pecsbrada/main.py:134
+#: src/pecsbrada/main.py:135
 msgid "Theme"
 msgstr ""
 
-#: src/pecsbrada/main.py:135
+#: src/pecsbrada/main.py:136
 msgid "Choose light, dark, or follow system"
 msgstr ""
 
-#: src/pecsbrada/main.py:137
+#: src/pecsbrada/main.py:138
 msgid "System"
 msgstr ""
 
-#: src/pecsbrada/main.py:137
+#: src/pecsbrada/main.py:138
 msgid "Light"
 msgstr ""
 
-#: src/pecsbrada/main.py:137
+#: src/pecsbrada/main.py:138
 msgid "Dark"
 msgstr ""
 
-#: src/pecsbrada/main.py:145
+#: src/pecsbrada/main.py:146
 msgid "Icon Size"
 msgstr ""
 
-#: src/pecsbrada/main.py:146
+#: src/pecsbrada/main.py:147
 msgid "Size of pictogram icons"
 msgstr ""
 
-#: src/pecsbrada/main.py:148
+#: src/pecsbrada/main.py:149
 msgid "Small"
 msgstr ""
 
-#: src/pecsbrada/main.py:148
+#: src/pecsbrada/main.py:149
 msgid "Medium"
 msgstr ""
 
-#: src/pecsbrada/main.py:148
+#: src/pecsbrada/main.py:149
 msgid "Large"
 msgstr ""
 
-#: src/pecsbrada/main.py:156
+#: src/pecsbrada/main.py:157 src/pecsbrada/main.py:171
 msgid "Speech"
 msgstr ""
 
-#: src/pecsbrada/main.py:159
+#: src/pecsbrada/main.py:160
 msgid "Read aloud on tap"
 msgstr ""
 
-#: src/pecsbrada/main.py:160
+#: src/pecsbrada/main.py:161
 msgid "Speak each word when tapped"
 msgstr ""
 
-#: src/pecsbrada/main.py:171
-msgid "Advanced"
+#: src/pecsbrada/main.py:174
+msgid "Speech Engine"
 msgstr ""
 
 #: src/pecsbrada/main.py:175
+msgid "Piper gives natural voices, espeak is robotic but lightweight"
+msgstr ""
+
+#: src/pecsbrada/main.py:177
+msgid "Automatic"
+msgstr ""
+
+#: src/pecsbrada/main.py:177
+msgid "Piper (natural)"
+msgstr ""
+
+#: src/pecsbrada/main.py:177
+msgid "espeak-ng (robotic)"
+msgstr ""
+
+#: src/pecsbrada/main.py:185
+msgid "Speech Speed"
+msgstr ""
+
+#: src/pecsbrada/main.py:186
+msgid "Slower speech can be easier to understand"
+msgstr ""
+
+#: src/pecsbrada/main.py:202
+msgid "Advanced"
+msgstr ""
+
+#: src/pecsbrada/main.py:206
 msgid "ARASAAC Cache"
 msgstr ""
 
-#: src/pecsbrada/main.py:180
+#: src/pecsbrada/main.py:211
 msgid "Cached pictograms"
 msgstr ""
 
-#: src/pecsbrada/main.py:191
+#: src/pecsbrada/main.py:222
 msgid "Developer"
 msgstr ""
 
-#: src/pecsbrada/main.py:193
+#: src/pecsbrada/main.py:224
 msgid "Debug mode"
 msgstr ""
 
-#: src/pecsbrada/main.py:194
+#: src/pecsbrada/main.py:225
 msgid "Show extra logging in terminal"
 msgstr ""
 
-#: src/pecsbrada/main.py:226
+#: src/pecsbrada/main.py:257
 msgid "Cleared"
 msgstr ""
 
-#: src/pecsbrada/main.py:258
+#: src/pecsbrada/main.py:289
 msgid "ARASAAC pictograms (https://arasaac.org)"
 msgstr ""
 
-#: src/pecsbrada/main.py:261
+#: src/pecsbrada/main.py:292
 msgid ""
 "Digital PECS communication board with text-to-speech and pictogram support "
 "for children with autism.\n"
@@ -410,6 +438,6 @@ msgid ""
 "structure."
 msgstr ""
 
-#: src/pecsbrada/main.py:273
+#: src/pecsbrada/main.py:304
 msgid "Autismappar"
 msgstr ""
