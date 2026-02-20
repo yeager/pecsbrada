@@ -1,12 +1,12 @@
 """Main window for PECS-bräda."""
 import gettext
-import subprocess
 import gi
 gi.require_version('Gtk', '4.0')
 gi.require_version('Adw', '1')
 from gi.repository import Gtk, Adw, Gio, GLib, GdkPixbuf
 
 from . import arasaac
+from .tts import speak
 
 _ = gettext.gettext
 
@@ -197,15 +197,7 @@ class PecsbradaWindow(Adw.ApplicationWindow):
         self._speak(label)
 
     def _speak(self, text):
-        try:
-            subprocess.Popen(["espeak-ng", "-v", "sv", text],
-                             stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
-        except FileNotFoundError:
-            try:
-                subprocess.Popen(["espeak", "-v", "sv", text],
-                                 stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
-            except FileNotFoundError:
-                pass
+        speak(text, lang="sv")
 
     def _speak_sentence(self, btn):
         if self.sentence_words:
