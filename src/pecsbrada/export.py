@@ -10,7 +10,7 @@ _ = gettext.gettext
 
 from pecsbrada import __version__
 
-APP_LABEL = "PECS-bräda"
+APP_LABEL = _("PECS Board")
 AUTHOR = "Daniel Nylander"
 WEBSITE = "www.autismappar.se"
 
