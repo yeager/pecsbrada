@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR Daniel Nylander
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the pecsbrada package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pecsbrada\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-20 20:26+0100\n"
+"POT-Creation-Date: 2026-02-21 08:20+0100\n"
 "PO-Revision-Date: 2026-02-18 09:21+0000\n"
 "Last-Translator: Daniel Nylander <po@danielnylander.se>, 2026\n"
 "Language-Team: Swedish (https://app.transifex.com/danielnylander/teams/304957/sv/)\n"
@@ -21,15 +21,89 @@ msgstr ""
 "Language: sv\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: src/pecsbrada/main.py:83 src/pecsbrada/main.py:84
+#: src/pecsbrada/export.py:26
+msgid "Current Sentence"
+msgstr "Aktuell mening"
+
+#: src/pecsbrada/export.py:27 src/pecsbrada/export.py:81
+msgid "(empty)"
+msgstr "(tom)"
+
+#: src/pecsbrada/export.py:29
+msgid "Category"
+msgstr "Kategori"
+
+#: src/pecsbrada/export.py:29
+msgid "Card"
+msgstr "Kort"
+
+#: src/pecsbrada/export.py:29
+msgid "Emoji"
+msgstr "Känsloikon"
+
+#: src/pecsbrada/export.py:71
+msgid "My Sentence"
+msgstr "Min mening"
+
+#: src/pecsbrada/export.py:114 src/pecsbrada/window.py:68
+msgid "Export"
+msgstr "Exportera"
+
+#: src/pecsbrada/export.py:115
+msgid "Choose export format:"
+msgstr "Välj exportformat:"
+
+#: src/pecsbrada/export.py:117
+msgid "Cancel"
+msgstr "Avbryt"
+
+#: src/pecsbrada/export.py:118
+msgid "CSV"
+msgstr "CSV"
+
+#: src/pecsbrada/export.py:119
+msgid "JSON"
+msgstr "JSON"
+
+#: src/pecsbrada/export.py:120
+msgid "PDF"
+msgstr "PDF"
+
+#: src/pecsbrada/export.py:142
+msgid "Save Export"
+msgstr "Spara export"
+
+#: src/pecsbrada/export.py:156
+#, python-format
+msgid "Exported %s"
+msgstr "Exporterade %s"
+
+#: src/pecsbrada/export.py:159 src/pecsbrada/export.py:182
+#, python-format
+msgid "Export error: %s"
+msgstr "Exportfel: %s"
+
+#: src/pecsbrada/export.py:164
+msgid "Save PDF"
+msgstr "Spara PDF"
+
+#: src/pecsbrada/export.py:177
+msgid "PDF exported"
+msgstr "PDF exporterad"
+
+#: src/pecsbrada/export.py:179
+msgid "PDF export requires pycairo"
+msgstr "PDF-export kräver pycairo"
+
+#: src/pecsbrada/main.py:85
 msgid "Welcome"
 msgstr "Välkommen"
 
-#: src/pecsbrada/main.py:89 src/pecsbrada/main.py:90
-msgid "Welcome to PECS-bräda"
+#: src/pecsbrada/main.py:91
+msgid "Welcome to PECS Board"
 msgstr "Välkommen till PECS-bräda"
 
-#: src/pecsbrada/main.py:91 src/pecsbrada/main.py:92
+#: src/pecsbrada/main.py:93
 msgid ""
 "Build sentences with picture cards.\n"
 "\n"
@@ -45,118 +119,143 @@ msgstr ""
 "✓ Sök bland över 13 000 ARASAAC-piktogram\n"
 "✓ Sök på svenska eller engelska"
 
-#: src/pecsbrada/main.py:98 src/pecsbrada/main.py:99
+#: src/pecsbrada/main.py:100
 msgid "Get Started"
 msgstr "Kom igång"
 
-#: src/pecsbrada/main.py:123 src/pecsbrada/window.py:68
-#: src/pecsbrada/window.py:69 src/pecsbrada/main.py:124
+#: src/pecsbrada/main.py:125 src/pecsbrada/window.py:69
 msgid "Preferences"
 msgstr "Inställningar"
 
-#: src/pecsbrada/main.py:126 src/pecsbrada/main.py:127
+#: src/pecsbrada/main.py:128
 msgid "General"
 msgstr "Allmänt"
 
-#: src/pecsbrada/main.py:130 src/pecsbrada/main.py:131
+#: src/pecsbrada/main.py:132
 msgid "Appearance"
 msgstr "Utseende"
 
-#: src/pecsbrada/main.py:133 src/pecsbrada/main.py:134
+#: src/pecsbrada/main.py:135
 msgid "Theme"
 msgstr "Tema"
 
-#: src/pecsbrada/main.py:134 src/pecsbrada/main.py:135
+#: src/pecsbrada/main.py:136
 msgid "Choose light, dark, or follow system"
 msgstr "Välj ljust, mörkt eller följ systemet"
 
-#: src/pecsbrada/main.py:136 src/pecsbrada/main.py:137
+#: src/pecsbrada/main.py:138
 msgid "System"
 msgstr "System"
 
-#: src/pecsbrada/main.py:136 src/pecsbrada/main.py:137
+#: src/pecsbrada/main.py:138
 msgid "Light"
 msgstr "Ljust"
 
-#: src/pecsbrada/main.py:136 src/pecsbrada/main.py:137
+#: src/pecsbrada/main.py:138
 msgid "Dark"
 msgstr "Mörkt"
 
-#: src/pecsbrada/main.py:144 src/pecsbrada/main.py:145
+#: src/pecsbrada/main.py:146
 msgid "Icon Size"
 msgstr "Ikonstorlek"
 
-#: src/pecsbrada/main.py:145 src/pecsbrada/main.py:146
+#: src/pecsbrada/main.py:147
 msgid "Size of pictogram icons"
 msgstr "Storlek för piktogramikoner"
 
-#: src/pecsbrada/main.py:147 src/pecsbrada/main.py:148
+#: src/pecsbrada/main.py:149
 msgid "Small"
 msgstr "Små"
 
-#: src/pecsbrada/main.py:147 src/pecsbrada/main.py:148
+#: src/pecsbrada/main.py:149
 msgid "Medium"
 msgstr "Medel"
 
-#: src/pecsbrada/main.py:147 src/pecsbrada/main.py:148
+#: src/pecsbrada/main.py:149
 msgid "Large"
 msgstr "Stora"
 
-#: src/pecsbrada/main.py:155 src/pecsbrada/main.py:156
+#: src/pecsbrada/main.py:157 src/pecsbrada/main.py:171
 msgid "Speech"
 msgstr "Tal"
 
-#: src/pecsbrada/main.py:158 src/pecsbrada/main.py:159
+#: src/pecsbrada/main.py:160
 msgid "Read aloud on tap"
 msgstr "Läs högt på tryckknapp"
 
-#: src/pecsbrada/main.py:159 src/pecsbrada/main.py:160
+#: src/pecsbrada/main.py:161
 msgid "Speak each word when tapped"
 msgstr "Säg varje ord när du trycker på det"
 
-#: src/pecsbrada/main.py:170 src/pecsbrada/main.py:171
+#: src/pecsbrada/main.py:174
+msgid "Speech Engine"
+msgstr "Talmotor"
+
+#: src/pecsbrada/main.py:175
+msgid "Piper gives natural voices, espeak is robotic but lightweight"
+msgstr "Piper ger naturliga röster, espeak är robotlik men lättviktig."
+
+#: src/pecsbrada/main.py:177
+msgid "Automatic"
+msgstr "Automatiskt"
+
+#: src/pecsbrada/main.py:177
+msgid "Piper (natural)"
+msgstr "Piper (naturlig)"
+
+#: src/pecsbrada/main.py:177
+msgid "espeak-ng (robotic)"
+msgstr "espeak-ng (robotlik)"
+
+#: src/pecsbrada/main.py:185
+msgid "Speech Speed"
+msgstr "Talhastighet"
+
+#: src/pecsbrada/main.py:186
+msgid "Slower speech can be easier to understand"
+msgstr "Långsammare tal kan vara lättare att förstå"
+
+#: src/pecsbrada/main.py:202
 msgid "Advanced"
 msgstr "Avancerat"
 
-#: src/pecsbrada/main.py:174 src/pecsbrada/main.py:175
+#: src/pecsbrada/main.py:206
 msgid "ARASAAC Cache"
 msgstr "ARASAAC-cache"
 
-#: src/pecsbrada/main.py:179 src/pecsbrada/main.py:180
+#: src/pecsbrada/main.py:211
 msgid "Cached pictograms"
 msgstr "Cachade piktogram"
 
-#: src/pecsbrada/main.py:181 src/pecsbrada/window.py:99
-#: src/pecsbrada/window.py:100 src/pecsbrada/main.py:182
+#: src/pecsbrada/main.py:213 src/pecsbrada/window.py:100
 msgid "Clear"
 msgstr "Töm"
 
-#: src/pecsbrada/main.py:190 src/pecsbrada/main.py:191
+#: src/pecsbrada/main.py:222
 msgid "Developer"
 msgstr "Utvecklare"
 
-#: src/pecsbrada/main.py:192 src/pecsbrada/main.py:193
+#: src/pecsbrada/main.py:224
 msgid "Debug mode"
 msgstr "Felsökningsläge"
 
-#: src/pecsbrada/main.py:193 src/pecsbrada/main.py:194
+#: src/pecsbrada/main.py:225
 msgid "Show extra logging in terminal"
 msgstr "Visa extra loggning i terminal"
 
-#: src/pecsbrada/main.py:225 src/pecsbrada/main.py:226
+#: src/pecsbrada/main.py:257
 msgid "Cleared"
 msgstr "Tömdes"
 
-#: src/pecsbrada/main.py:235 src/pecsbrada/window.py:49
-#: src/pecsbrada/main.py:247
-msgid "PECS-bräda"
+#: src/pecsbrada/main.py:278 src/pecsbrada/window.py:49
+msgid "PECS Board"
 msgstr "PECS-bräda"
 
-#: src/pecsbrada/main.py:246 src/pecsbrada/main.py:258
+#: src/pecsbrada/main.py:289
 msgid "ARASAAC pictograms (https://arasaac.org)"
 msgstr "ARASAAC-piktogram (https://arasaac.org)"
 
-#: src/pecsbrada/main.py:249 src/pecsbrada/main.py:261
+#: src/pecsbrada/main.py:292
 msgid ""
 "Digital PECS communication board with text-to-speech and pictogram support for children with autism.\n"
 "\n"
@@ -166,7 +265,7 @@ msgstr ""
 "\n"
 "En del av Autismappar-paketet – gratis verktyg för kommunikation och daglig struktur."
 
-#: src/pecsbrada/main.py:260 src/pecsbrada/main.py:272
+#: src/pecsbrada/main.py:304
 msgid "Autismappar"
 msgstr "Autismappar"
 
@@ -334,97 +433,22 @@ msgstr "Ja"
 msgid "Toggle dark/light theme"
 msgstr "Växla mörkt/ljust tema"
 
-#: src/pecsbrada/window.py:69 src/pecsbrada/window.py:70
+#: src/pecsbrada/window.py:70
 msgid "Keyboard Shortcuts"
 msgstr "Tangentbordsgenvägar"
 
-#: src/pecsbrada/window.py:70 src/pecsbrada/window.py:71
-msgid "About PECS-bräda"
+#: src/pecsbrada/window.py:71
+msgid "About PECS Board"
 msgstr "Om PECS-bräda"
 
-#: src/pecsbrada/window.py:71 src/pecsbrada/window.py:72
+#: src/pecsbrada/window.py:72
 msgid "Quit"
 msgstr "Avsluta"
 
-#: src/pecsbrada/window.py:87 src/pecsbrada/window.py:215
-#: src/pecsbrada/window.py:88 src/pecsbrada/window.py:216
+#: src/pecsbrada/window.py:88 src/pecsbrada/window.py:208
 msgid "Tap images to build a sentence..."
 msgstr "Tryck på bilder för att bygga en mening..."
 
-#: src/pecsbrada/window.py:93 src/pecsbrada/window.py:94
+#: src/pecsbrada/window.py:94
 msgid "Speak sentence"
 msgstr "Säg meningen"
-
-#: src/pecsbrada/window.py:68 src/pecsbrada/export.py:114
-msgid "Export"
-msgstr "Exportera"
-
-#: src/pecsbrada/export.py:26
-msgid "Current Sentence"
-msgstr "Aktuell mening"
-
-#: src/pecsbrada/export.py:27 src/pecsbrada/export.py:81
-msgid "(empty)"
-msgstr "(tom)"
-
-#: src/pecsbrada/export.py:29
-msgid "Category"
-msgstr "Kategori"
-
-#: src/pecsbrada/export.py:29
-msgid "Card"
-msgstr "Kort"
-
-#: src/pecsbrada/export.py:29
-msgid "Emoji"
-msgstr "Känsloikon"
-
-#: src/pecsbrada/export.py:71
-msgid "My Sentence"
-msgstr "Min mening"
-
-#: src/pecsbrada/export.py:115
-msgid "Choose export format:"
-msgstr "Välj exportformat:"
-
-#: src/pecsbrada/export.py:117
-msgid "Cancel"
-msgstr "Avbryt"
-
-#: src/pecsbrada/export.py:118
-msgid "CSV"
-msgstr "CSV"
-
-#: src/pecsbrada/export.py:119
-msgid "JSON"
-msgstr "JSON"
-
-#: src/pecsbrada/export.py:120
-msgid "PDF"
-msgstr "PDF"
-
-#: src/pecsbrada/export.py:142
-msgid "Save Export"
-msgstr "Spara export"
-
-#: src/pecsbrada/export.py:156
-#, python-format
-msgid "Exported %s"
-msgstr "Exporterade %s"
-
-#: src/pecsbrada/export.py:159 src/pecsbrada/export.py:182
-#, python-format
-msgid "Export error: %s"
-msgstr "Exportfel: %s"
-
-#: src/pecsbrada/export.py:164
-msgid "Save PDF"
-msgstr "Spara PDF"
-
-#: src/pecsbrada/export.py:177
-msgid "PDF exported"
-msgstr "PDF exporterad"
-
-#: src/pecsbrada/export.py:179
-msgid "PDF export requires pycairo"
-msgstr "PDF-export kräver pycairo"
