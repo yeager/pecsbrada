@@ -1,5 +1,12 @@
 # 💬 PECS-bräda
 
+
+## Screenshots
+
+| English | Svenska |
+|---------|---------|
+| ![English](screenshots/pecsbrada_en.png) | ![Svenska](screenshots/pecsbrada_sv.png) |
+
 **Digital PECS communication board with text-to-speech**
 
 Part of the [Autismappar](https://www.autismappar.se) suite — free, open-source tools for communication and daily structure for children with autism and language disorders.
