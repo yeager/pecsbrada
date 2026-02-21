@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pecsbrada\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-21 08:20+0100\n"
+"POT-Creation-Date: 2026-02-21 15:09+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,77 +17,77 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: src/pecsbrada/export.py:26
+#: src/pecsbrada/export.py:27
 msgid "Current Sentence"
 msgstr ""
 
-#: src/pecsbrada/export.py:27 src/pecsbrada/export.py:81
+#: src/pecsbrada/export.py:28 src/pecsbrada/export.py:82
 msgid "(empty)"
 msgstr ""
 
-#: src/pecsbrada/export.py:29
+#: src/pecsbrada/export.py:30
 msgid "Category"
 msgstr ""
 
-#: src/pecsbrada/export.py:29
+#: src/pecsbrada/export.py:30
 msgid "Card"
 msgstr ""
 
-#: src/pecsbrada/export.py:29
+#: src/pecsbrada/export.py:30
 msgid "Emoji"
 msgstr ""
 
-#: src/pecsbrada/export.py:71
+#: src/pecsbrada/export.py:72
 msgid "My Sentence"
 msgstr ""
 
-#: src/pecsbrada/export.py:114 src/pecsbrada/window.py:68
+#: src/pecsbrada/export.py:115 src/pecsbrada/window.py:68
 msgid "Export"
 msgstr ""
 
-#: src/pecsbrada/export.py:115
+#: src/pecsbrada/export.py:116
 msgid "Choose export format:"
 msgstr ""
 
-#: src/pecsbrada/export.py:117
+#: src/pecsbrada/export.py:118
 msgid "Cancel"
 msgstr ""
 
-#: src/pecsbrada/export.py:118
+#: src/pecsbrada/export.py:119
 msgid "CSV"
 msgstr ""
 
-#: src/pecsbrada/export.py:119
+#: src/pecsbrada/export.py:120
 msgid "JSON"
 msgstr ""
 
-#: src/pecsbrada/export.py:120
+#: src/pecsbrada/export.py:121
 msgid "PDF"
 msgstr ""
 
-#: src/pecsbrada/export.py:142
+#: src/pecsbrada/export.py:143
 msgid "Save Export"
 msgstr ""
 
-#: src/pecsbrada/export.py:156
+#: src/pecsbrada/export.py:157
 #, python-format
 msgid "Exported %s"
 msgstr ""
 
-#: src/pecsbrada/export.py:159 src/pecsbrada/export.py:182
+#: src/pecsbrada/export.py:160 src/pecsbrada/export.py:183
 #, python-format
 msgid "Export error: %s"
 msgstr ""
 
-#: src/pecsbrada/export.py:164
+#: src/pecsbrada/export.py:165
 msgid "Save PDF"
 msgstr ""
 
-#: src/pecsbrada/export.py:177
+#: src/pecsbrada/export.py:178
 msgid "PDF exported"
 msgstr ""
 
-#: src/pecsbrada/export.py:179
+#: src/pecsbrada/export.py:180
 msgid "PDF export requires pycairo"
 msgstr ""
 
