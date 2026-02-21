@@ -11,6 +11,7 @@ from gi.repository import Gtk, Adw, Gio, GLib
 
 from pecsbrada import __version__
 from pecsbrada.window import PecsbradaWindow
+from pecsbrada.accessibility import apply_large_text
 
 TEXTDOMAIN = "pecsbrada"
 gettext.textdomain(TEXTDOMAIN)
@@ -43,6 +44,7 @@ class PecsbradaApp(Adw.Application):
         self.settings = _load_settings()
 
     def do_activate(self):
+        apply_large_text()
         win = self.props.active_window or PecsbradaWindow(application=self)
         self._apply_theme()
         self._apply_tts_settings()
