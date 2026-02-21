@@ -46,7 +46,7 @@ CATEGORIES = {
 class PecsbradaWindow(Adw.ApplicationWindow):
     def __init__(self, **kwargs):
         super().__init__(**kwargs, default_width=600, default_height=700,
-                         title=_("PECS-bräda"))
+                         title=_("PECS Board"))
         self.current_category = list(CATEGORIES.keys())[0]
         self._build_ui()
         self._start_clock()
@@ -68,7 +68,7 @@ class PecsbradaWindow(Adw.ApplicationWindow):
         menu.append(_("Export"), "app.export")
         menu.append(_("Preferences"), "app.preferences")
         menu.append(_("Keyboard Shortcuts"), "app.shortcuts")
-        menu.append(_("About PECS-bräda"), "app.about")
+        menu.append(_("About PECS Board"), "app.about")
         menu.append(_("Quit"), "app.quit")
         menu_btn = Gtk.MenuButton(icon_name="open-menu-symbolic", menu_model=menu)
         header.pack_end(menu_btn)
