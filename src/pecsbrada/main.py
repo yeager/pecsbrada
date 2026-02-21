@@ -88,7 +88,7 @@ class PecsbradaApp(Adw.Application):
 
         page = Adw.StatusPage()
         page.set_icon_name("pecsbrada")
-        page.set_title(_("Welcome to PECS-bräda"))
+        page.set_title(_("Welcome to PECS Board"))
         page.set_description(_(
             "Build sentences with picture cards.\n\n"
             "✓ Tap pictures to form sentences\n"
@@ -275,7 +275,7 @@ class PecsbradaApp(Adw.Application):
 
     def _on_about(self, *_):
         about = Adw.AboutDialog(
-            application_name=_("PECS-bräda"),
+            application_name=_("PECS Board"),
             application_icon="pecsbrada",
             version=__version__,
             developer_name="Daniel Nylander",
