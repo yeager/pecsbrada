@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the pecsbrada package.
+# This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: pecsbrada\n"
+"Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-21 15:17+0100\n"
+"POT-Creation-Date: 2026-02-21 20:53+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,94 +17,93 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: src/pecsbrada/export.py:13 src/pecsbrada/main.py:278
-#: src/pecsbrada/window.py:49
+#: src/export.py:13 src/main.py:280 src/window.py:49
 msgid "PECS Board"
 msgstr ""
 
-#: src/pecsbrada/export.py:27
+#: src/export.py:27
 msgid "Current Sentence"
 msgstr ""
 
-#: src/pecsbrada/export.py:28 src/pecsbrada/export.py:82
+#: src/export.py:28 src/export.py:82
 msgid "(empty)"
 msgstr ""
 
-#: src/pecsbrada/export.py:30
+#: src/export.py:30
 msgid "Category"
 msgstr ""
 
-#: src/pecsbrada/export.py:30
+#: src/export.py:30
 msgid "Card"
 msgstr ""
 
-#: src/pecsbrada/export.py:30
+#: src/export.py:30
 msgid "Emoji"
 msgstr ""
 
-#: src/pecsbrada/export.py:72
+#: src/export.py:72
 msgid "My Sentence"
 msgstr ""
 
-#: src/pecsbrada/export.py:115 src/pecsbrada/window.py:68
+#: src/export.py:115 src/window.py:68
 msgid "Export"
 msgstr ""
 
-#: src/pecsbrada/export.py:116
+#: src/export.py:116
 msgid "Choose export format:"
 msgstr ""
 
-#: src/pecsbrada/export.py:118
+#: src/export.py:118
 msgid "Cancel"
 msgstr ""
 
-#: src/pecsbrada/export.py:119
+#: src/export.py:119
 msgid "CSV"
 msgstr ""
 
-#: src/pecsbrada/export.py:120
+#: src/export.py:120
 msgid "JSON"
 msgstr ""
 
-#: src/pecsbrada/export.py:121
+#: src/export.py:121
 msgid "PDF"
 msgstr ""
 
-#: src/pecsbrada/export.py:143
+#: src/export.py:143
 msgid "Save Export"
 msgstr ""
 
-#: src/pecsbrada/export.py:157
+#: src/export.py:157
 #, python-format
 msgid "Exported %s"
 msgstr ""
 
-#: src/pecsbrada/export.py:160 src/pecsbrada/export.py:183
+#: src/export.py:160 src/export.py:183
 #, python-format
 msgid "Export error: %s"
 msgstr ""
 
-#: src/pecsbrada/export.py:165
+#: src/export.py:165
 msgid "Save PDF"
 msgstr ""
 
-#: src/pecsbrada/export.py:178
+#: src/export.py:178
 msgid "PDF exported"
 msgstr ""
 
-#: src/pecsbrada/export.py:180
+#: src/export.py:180
 msgid "PDF export requires pycairo"
 msgstr ""
 
-#: src/pecsbrada/main.py:85
+#: src/main.py:87
 msgid "Welcome"
 msgstr ""
 
-#: src/pecsbrada/main.py:91
+#: src/main.py:93
 msgid "Welcome to PECS Board"
 msgstr ""
 
-#: src/pecsbrada/main.py:93
+#: src/main.py:95
 msgid ""
 "Build sentences with picture cards.\n"
 "\n"
@@ -114,139 +113,139 @@ msgid ""
 "✓ Search in Swedish or English"
 msgstr ""
 
-#: src/pecsbrada/main.py:100
+#: src/main.py:102
 msgid "Get Started"
 msgstr ""
 
-#: src/pecsbrada/main.py:125 src/pecsbrada/window.py:69
+#: src/main.py:127 src/window.py:69
 msgid "Preferences"
 msgstr ""
 
-#: src/pecsbrada/main.py:128
+#: src/main.py:130
 msgid "General"
 msgstr ""
 
-#: src/pecsbrada/main.py:132
+#: src/main.py:134
 msgid "Appearance"
 msgstr ""
 
-#: src/pecsbrada/main.py:135
+#: src/main.py:137
 msgid "Theme"
 msgstr ""
 
-#: src/pecsbrada/main.py:136
+#: src/main.py:138
 msgid "Choose light, dark, or follow system"
 msgstr ""
 
-#: src/pecsbrada/main.py:138
+#: src/main.py:140
 msgid "System"
 msgstr ""
 
-#: src/pecsbrada/main.py:138
+#: src/main.py:140
 msgid "Light"
 msgstr ""
 
-#: src/pecsbrada/main.py:138
+#: src/main.py:140
 msgid "Dark"
 msgstr ""
 
-#: src/pecsbrada/main.py:146
+#: src/main.py:148
 msgid "Icon Size"
 msgstr ""
 
-#: src/pecsbrada/main.py:147
+#: src/main.py:149
 msgid "Size of pictogram icons"
 msgstr ""
 
-#: src/pecsbrada/main.py:149
+#: src/main.py:151
 msgid "Small"
 msgstr ""
 
-#: src/pecsbrada/main.py:149
+#: src/main.py:151
 msgid "Medium"
 msgstr ""
 
-#: src/pecsbrada/main.py:149
+#: src/main.py:151
 msgid "Large"
 msgstr ""
 
-#: src/pecsbrada/main.py:157 src/pecsbrada/main.py:171
+#: src/main.py:159 src/main.py:173
 msgid "Speech"
 msgstr ""
 
-#: src/pecsbrada/main.py:160
+#: src/main.py:162
 msgid "Read aloud on tap"
 msgstr ""
 
-#: src/pecsbrada/main.py:161
+#: src/main.py:163
 msgid "Speak each word when tapped"
 msgstr ""
 
-#: src/pecsbrada/main.py:174
+#: src/main.py:176
 msgid "Speech Engine"
 msgstr ""
 
-#: src/pecsbrada/main.py:175
+#: src/main.py:177
 msgid "Piper gives natural voices, espeak is robotic but lightweight"
 msgstr ""
 
-#: src/pecsbrada/main.py:177
+#: src/main.py:179
 msgid "Automatic"
 msgstr ""
 
-#: src/pecsbrada/main.py:177
+#: src/main.py:179
 msgid "Piper (natural)"
 msgstr ""
 
-#: src/pecsbrada/main.py:177
+#: src/main.py:179
 msgid "espeak-ng (robotic)"
 msgstr ""
 
-#: src/pecsbrada/main.py:185
+#: src/main.py:187
 msgid "Speech Speed"
 msgstr ""
 
-#: src/pecsbrada/main.py:186
+#: src/main.py:188
 msgid "Slower speech can be easier to understand"
 msgstr ""
 
-#: src/pecsbrada/main.py:202
+#: src/main.py:204
 msgid "Advanced"
 msgstr ""
 
-#: src/pecsbrada/main.py:206
+#: src/main.py:208
 msgid "ARASAAC Cache"
 msgstr ""
 
-#: src/pecsbrada/main.py:211
+#: src/main.py:213
 msgid "Cached pictograms"
 msgstr ""
 
-#: src/pecsbrada/main.py:213 src/pecsbrada/window.py:100
+#: src/main.py:215 src/window.py:100
 msgid "Clear"
 msgstr ""
 
-#: src/pecsbrada/main.py:222
+#: src/main.py:224
 msgid "Developer"
 msgstr ""
 
-#: src/pecsbrada/main.py:224
+#: src/main.py:226
 msgid "Debug mode"
 msgstr ""
 
-#: src/pecsbrada/main.py:225
+#: src/main.py:227
 msgid "Show extra logging in terminal"
 msgstr ""
 
-#: src/pecsbrada/main.py:257
+#: src/main.py:259
 msgid "Cleared"
 msgstr ""
 
-#: src/pecsbrada/main.py:289
+#: src/main.py:291
 msgid "ARASAAC pictograms (https://arasaac.org)"
 msgstr ""
 
-#: src/pecsbrada/main.py:292
+#: src/main.py:294
 msgid ""
 "Digital PECS communication board with text-to-speech and pictogram support "
 "for children with autism.\n"
@@ -255,190 +254,190 @@ msgid ""
 "structure."
 msgstr ""
 
-#: src/pecsbrada/main.py:304
+#: src/main.py:306
 msgid "Autismappar"
 msgstr ""
 
-#: src/pecsbrada/window.py:15
+#: src/window.py:15
 msgid "Food"
 msgstr ""
 
-#: src/pecsbrada/window.py:16
+#: src/window.py:16
 msgid "Apple"
 msgstr ""
 
-#: src/pecsbrada/window.py:16
+#: src/window.py:16
 msgid "Banana"
 msgstr ""
 
-#: src/pecsbrada/window.py:17
+#: src/window.py:17
 msgid "Milk"
 msgstr ""
 
-#: src/pecsbrada/window.py:17
+#: src/window.py:17
 msgid "Bread"
 msgstr ""
 
-#: src/pecsbrada/window.py:18
+#: src/window.py:18
 msgid "Water"
 msgstr ""
 
-#: src/pecsbrada/window.py:18
+#: src/window.py:18
 msgid "Juice"
 msgstr ""
 
-#: src/pecsbrada/window.py:19
+#: src/window.py:19
 msgid "Cookie"
 msgstr ""
 
-#: src/pecsbrada/window.py:19
+#: src/window.py:19
 msgid "Cheese"
 msgstr ""
 
-#: src/pecsbrada/window.py:20
+#: src/window.py:20
 msgid "Pizza"
 msgstr ""
 
-#: src/pecsbrada/window.py:22
+#: src/window.py:22
 msgid "Activities"
 msgstr ""
 
-#: src/pecsbrada/window.py:23
+#: src/window.py:23
 msgid "Play"
 msgstr ""
 
-#: src/pecsbrada/window.py:23
+#: src/window.py:23
 msgid "Read"
 msgstr ""
 
-#: src/pecsbrada/window.py:24
+#: src/window.py:24
 msgid "Draw"
 msgstr ""
 
-#: src/pecsbrada/window.py:24
+#: src/window.py:24
 msgid "Music"
 msgstr ""
 
-#: src/pecsbrada/window.py:25
+#: src/window.py:25
 msgid "Run"
 msgstr ""
 
-#: src/pecsbrada/window.py:25
+#: src/window.py:25
 msgid "Puzzle"
 msgstr ""
 
-#: src/pecsbrada/window.py:26
+#: src/window.py:26
 msgid "TV"
 msgstr ""
 
-#: src/pecsbrada/window.py:26
+#: src/window.py:26
 msgid "Playground"
 msgstr ""
 
-#: src/pecsbrada/window.py:27
+#: src/window.py:27
 msgid "Car ride"
 msgstr ""
 
-#: src/pecsbrada/window.py:29
+#: src/window.py:29
 msgid "Feelings"
 msgstr ""
 
-#: src/pecsbrada/window.py:30
+#: src/window.py:30
 msgid "Happy"
 msgstr ""
 
-#: src/pecsbrada/window.py:30
+#: src/window.py:30
 msgid "Sad"
 msgstr ""
 
-#: src/pecsbrada/window.py:31
+#: src/window.py:31
 msgid "Angry"
 msgstr ""
 
-#: src/pecsbrada/window.py:31
+#: src/window.py:31
 msgid "Worried"
 msgstr ""
 
-#: src/pecsbrada/window.py:32
+#: src/window.py:32
 msgid "Tired"
 msgstr ""
 
-#: src/pecsbrada/window.py:32
+#: src/window.py:32
 msgid "Hug"
 msgstr ""
 
-#: src/pecsbrada/window.py:33
+#: src/window.py:33
 msgid "Hungry"
 msgstr ""
 
-#: src/pecsbrada/window.py:33
+#: src/window.py:33
 msgid "Hot"
 msgstr ""
 
-#: src/pecsbrada/window.py:34
+#: src/window.py:34
 msgid "Cold"
 msgstr ""
 
-#: src/pecsbrada/window.py:36
+#: src/window.py:36
 msgid "Actions"
 msgstr ""
 
-#: src/pecsbrada/window.py:37
+#: src/window.py:37
 msgid "Toilet"
 msgstr ""
 
-#: src/pecsbrada/window.py:37
+#: src/window.py:37
 msgid "Help"
 msgstr ""
 
-#: src/pecsbrada/window.py:38
+#: src/window.py:38
 msgid "Stop"
 msgstr ""
 
-#: src/pecsbrada/window.py:38
+#: src/window.py:38
 msgid "Hello"
 msgstr ""
 
-#: src/pecsbrada/window.py:39
+#: src/window.py:39
 msgid "Please"
 msgstr ""
 
-#: src/pecsbrada/window.py:39
+#: src/window.py:39
 msgid "Thank you"
 msgstr ""
 
-#: src/pecsbrada/window.py:40
+#: src/window.py:40
 msgid "More"
 msgstr ""
 
-#: src/pecsbrada/window.py:40
+#: src/window.py:40
 msgid "No"
 msgstr ""
 
-#: src/pecsbrada/window.py:41
+#: src/window.py:41
 msgid "Yes"
 msgstr ""
 
-#: src/pecsbrada/window.py:63
+#: src/window.py:63
 msgid "Toggle dark/light theme"
 msgstr ""
 
-#: src/pecsbrada/window.py:70
+#: src/window.py:70
 msgid "Keyboard Shortcuts"
 msgstr ""
 
-#: src/pecsbrada/window.py:71
+#: src/window.py:71
 msgid "About PECS Board"
 msgstr ""
 
-#: src/pecsbrada/window.py:72
+#: src/window.py:72
 msgid "Quit"
 msgstr ""
 
-#: src/pecsbrada/window.py:88 src/pecsbrada/window.py:208
+#: src/window.py:88 src/window.py:208
 msgid "Tap images to build a sentence..."
 msgstr ""
 
-#: src/pecsbrada/window.py:94
+#: src/window.py:94
 msgid "Speak sentence"
 msgstr ""
