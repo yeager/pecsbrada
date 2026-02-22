@@ -122,7 +122,7 @@ class PecsbradaApp(Adw.Application):
 
     # ── Preferences ──────────────────────────────────────────
 
-    def _on_preferences(self, *_):
+    def _on_preferences(self, *_args):
         prefs = Adw.PreferencesDialog()
         prefs.set_title(_("Preferences"))
 
@@ -264,7 +264,7 @@ class PecsbradaApp(Adw.Application):
 
     # ── Export ────────────────────────────────────────────────
 
-    def _on_export(self, *_):
+    def _on_export(self, *_args):
         win = self.props.active_window
         if win:
             from pecsbrada.export import show_export_dialog
@@ -275,7 +275,7 @@ class PecsbradaApp(Adw.Application):
 
     # ── About ────────────────────────────────────────────────
 
-    def _on_about(self, *_):
+    def _on_about(self, *_args):
         about = Adw.AboutDialog(
             application_name=_("PECS Board"),
             application_icon="pecsbrada",
@@ -313,7 +313,7 @@ class PecsbradaApp(Adw.Application):
 
     # ── Shortcuts ────────────────────────────────────────────
 
-    def _on_shortcuts(self, *_):
+    def _on_shortcuts(self, *_args):
         builder = Gtk.Builder()
         builder.add_from_string('''
         <interface>
