@@ -7,4 +7,5 @@ Exec=pecsbrada
 Icon=se.danielnylander.pecsbrada
 Terminal=false
 Type=Application
+StartupWMClass=se.yeager.pecsbrada
 Categories=Education;Accessibility;

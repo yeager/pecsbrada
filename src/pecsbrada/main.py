@@ -38,6 +38,7 @@ def _save_settings(settings):
 class PecsbradaApp(Adw.Application):
     def __init__(self):
         super().__init__(application_id=APP_ID,
+        GLib.set_application_name(_("PECS Board"))
                          flags=Gio.ApplicationFlags.DEFAULT_FLAGS)
         self.settings = _load_settings()
 
