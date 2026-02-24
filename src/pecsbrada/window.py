@@ -6,7 +6,7 @@ gi.require_version('Adw', '1')
 from gi.repository import Gtk, Adw, Gio, GLib, GdkPixbuf
 
 from . import arasaac
-from .tts import speak
+from .tts import speak, get_current_lang
 
 _ = gettext.gettext
 
@@ -197,7 +197,7 @@ class PecsbradaWindow(Adw.ApplicationWindow):
         self._speak(label)
 
     def _speak(self, text):
-        speak(text, lang="sv")
+        speak(text, lang=get_current_lang())
 
     def _speak_sentence(self, btn):
         if self.sentence_words:
