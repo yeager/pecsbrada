@@ -1,3 +1,5 @@
+> **⚠️ This app has been migrated to the Autismappar PWA at https://autismappar.se**
+
 # PECS-bräda
 
 Digital PECS communication board with ARASAAC pictograms and text-to-speech.
@@ -27,4 +29,3 @@ Daniel Nylander — [danielnylander.se](https://danielnylander.se)
 ## Screenshots
 
 ![pecsbrada](screenshots/pecsbrada.png)
-
